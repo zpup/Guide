@@ -19,16 +19,18 @@ MySQL版本: MySQL 5.7
         > wget https://repo.mysql.com//mysql57-community-release-el7-8.noarch.rpm 
         
         安装rpm命令： 
-        >rpm -ivh mysql57-community-release-el7-11.noarch.rpm
-
+        
+>rpm -ivh mysql57-community-release-el7-11.noarch.rpm
+        
     - 2.或者安装MySQL源
         > 命令：yum -y install mysql57-community-release-el7-8.noarch.rpm
     
         输入以下命令查看MySQL安装情况：
+    
         > yum repolist enabled | grep mysql.*
 
     以上操作完毕之后 /etc/yum.repos.d目录下新增了两个文件，mysql-community.repo和mysql-community-source.repo 
-
+    
     ------
 
 ### MySQL 安装

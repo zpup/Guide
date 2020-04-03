@@ -4,7 +4,7 @@
 
 偷偷的引用下leetcode的一个图片 
 
-![avatar]https://pic.leetcode-cn.com/2847c2d9fb9a6326fecfcf8831ed1450046f1e10967cde9d8681c42393d745ff-frame_00001.png
+![avatar](https://pic.leetcode-cn.com/2847c2d9fb9a6326fecfcf8831ed1450046f1e10967cde9d8681c42393d745ff-frame_00001.png)
 
 ```
 //给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。 

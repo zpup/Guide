@@ -8,8 +8,7 @@
 
 ## 前提条件
 
-![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/file_import_moudles.png)
-c
+![Alt text](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/file_import_moudles.png "optional title")
 
 - minSdkVersion 必须在16及以上
 - compileSdkVersion 必须在28以上

@@ -2,28 +2,10 @@
 技术分享、各类信息分享，摘录。
 
 
-## 前言
-
-此接入文档适用于所有合作方的海外发行安卓游戏。主要内容包括接入方式以及接口调用的方法和参数说明等。
-
-## 前提条件
-
-![Alt text](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/file_import_moudles.png "optional title")
-
-- minSdkVersion 必须在16及以上
-- compileSdkVersion 必须在28以上
-
-## 准备工作
-
- - 导入SDK步骤
-
- ### Moudles接入方式（推荐使用）
  
 
 
-
-
- ![avatar][base64str]
+![avatar][base64str]
 
 
  ![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/%E5%AF%BC%E5%85%A5-3.png)

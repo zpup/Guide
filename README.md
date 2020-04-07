@@ -7,15 +7,6 @@
 
 ![avatar][base64str]
 
-
- ![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/%E5%AF%BC%E5%85%A5-3.png)
-
-
- ![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/%E5%AF%BC%E5%85%A5-4.png)
-
-
- ![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/%E5%AF%BC%E5%85%A5-5.png)
-
  **请在app下的gradle文件内的android节点和dependencies节点中间添加以下内容，解决ERROR:Failed to resolve的问题**
 
 ```

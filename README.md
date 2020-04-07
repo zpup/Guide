@@ -17,7 +17,7 @@
 
  ### Moudles接入方式（推荐使用）
 
- ![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/file_import_moudles.png)
+![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/file_import_moudles.png)
 
 
  ![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/%E5%AF%BC%E5%85%A5-1.png)

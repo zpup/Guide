@@ -16,6 +16,9 @@
  - 导入SDK步骤
 
  ### Moudles接入方式（推荐使用）
+ 
+![avatar](https://github.com/zpup/Guide/blob/master/img/quick-sort.gif)
+
 
 ![avatar](https://gitee.com/yanyan90107/overseas_advertising_sdk/blob/master/file_import_moudles.png)
 

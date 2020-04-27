@@ -1,6 +1,6 @@
 package algorithm;
 
-public class MaxArea {
+public class 盛最多水的容器 {
 
     private int maxArea(int[] height) {
 

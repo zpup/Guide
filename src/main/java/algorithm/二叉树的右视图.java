@@ -3,7 +3,7 @@ package algorithm;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RightSideView {
+public class 二叉树的右视图 {
 
     public static class TreeNode {
         int val;

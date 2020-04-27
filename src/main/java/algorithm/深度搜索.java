@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class DFS {
+public class 深度搜索 {
     public static class TreeNode {
         int val;
         TreeNode left;

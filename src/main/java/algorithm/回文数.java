@@ -1,6 +1,6 @@
 package algorithm;
 
-public class IsPalindrome {
+public class 回文数 {
 
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));

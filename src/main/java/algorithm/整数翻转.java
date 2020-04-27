@@ -1,6 +1,6 @@
 package algorithm;
 
-public class Reverse {
+public class 整数翻转 {
 
     public static void main(String[] args) {
         System.out.println(reverse(-1230));

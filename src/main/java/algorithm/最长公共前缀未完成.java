@@ -1,6 +1,6 @@
 package algorithm;
 
-public class LongestCommonPrefix {
+public class 最长公共前缀未完成 {
 
     public static void main(String[] args) {
 

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class BFS {
+public class 广度搜索 {
     public static class TreeNode {
         int val;
         TreeNode left;

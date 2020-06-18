@@ -1,0 +1,62 @@
+class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+
+        int nums1Len = nums1.length;
+        int nums2Len = nums2.length;
+        if (nums2Len > nums1Len) {
+            return findMedianSortedArrays(nums2, nums1);
+        }
+        int median = (nums1Len + nums2Len) / 2;
+        int i = 0;
+        int j = 0;
+        double re = 0;
+        while (true) {
+            if ((i + j) == median) {
+                if (((nums1Len + nums2Len) % 2) > 0) {
+                    if (nums1[i] > nums2[j]) {
+                        if (j+1 == nums2Len){
+                            re = nums2[j];
+                            break;
+                        }
+                        if (nums1[i] > nums2[j++]) {
+                            re = nums1[i];
+                            break;
+                        } else {
+                            re = nums1[j++];
+                            break;
+                        }
+                    } else {
+                        if (nums1[i++] > nums2[j]) {
+                            re = nums1[i];
+                            break;
+                        } else {
+                            re = nums1[j];
+                            break;
+                        }
+                    }
+
+                } else {
+                    if (nums1[i] > nums2[j]) {
+                        re = (nums1[i] + nums2[j++]) * 0.5;
+                        break;
+                    } else {
+                        re = (nums2[i++] + nums2[j]) * 0.5;
+                        break;
+                    }
+                }
+            }
+            if (nums1[i] > nums2[j]) {
+                j++;
+            }
+            if (nums1[i] <= nums2[j]) {
+                i++;
+            }
+        }
+        return re;
+
+
+    }
+}
+
+//runtime_error:Line 39: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+//last_testcase:[1,2] [3,4]

@@ -1,21 +1,9 @@
 package algorithm;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Test {
 
     public static void main(String[] args) {
-
-
-        List<String> abc = new ArrayList<>();
-        abc.add("1");
-        abc.add("2");
-        abc.add("1");
-        abc.add("3");
-        abc.add("4");
-        abc.remove("1");
-//        longestPalindrome("aba");
+        longestPalindrome("aba");
     }
 
     public static String longestPalindrome(String s) {
